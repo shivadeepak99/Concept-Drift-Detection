@@ -5,8 +5,8 @@ Goal: reproduce the PWPAE baseline, then add a drift-severity-aware response (se
 | Folder | What |
 |---|---|
 | `baseline/` | The authors' PWPAE notebooks (IoTID20, CICIDS2017) and their sampled datasets. Unmodified. Source: [Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation](https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation) (MIT) |
-| `results/` | `executed/` = the baseline notebooks run with outputs; `ext_summary.md` + `fig_*.png` = results of our extra experiments |
-| `ours/` | Our work so far: `run_ext.py` (runs the baseline learners + sampling strategies, 3 seeds) and `analyse.py` (extra metrics, window schemes, drift detectors). **The severity-aware version is not built yet.** |
+| `results/` | `executed/` = the baseline notebooks run with outputs; `ext_summary.md`, `contrib_summary.md`, `contrib_followup.md` + `fig_*.png` = results |
+| `ours/` | Our version and experiments. `severity_pwpae.py` = PWPAE plus the severity/boost/gating layers; `severity_pwpae.ipynb` = the notebook that runs and explains it; `run_contributions.py`, `more_seeds.py`, `confirm.py`, `timing_run.py`, `analyse_contrib.py` = tuning, repeated runs, fresh-seed confirmation, clean timing, paired statistics; `run_ext.py` / `analyse.py` = earlier extra experiments; `audit/` = baseline audit scripts |
 
 ## Run
 The authors' River 0.1.0 no longer installs; use Python 3.8 + River 0.8.0.

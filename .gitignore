@@ -5,3 +5,6 @@ results/*.csv
 *.log
 *.log2
 .ipynb_checkpoints/
+results/contrib/eval/
+results/contrib/val/
+results/contrib/*.log
