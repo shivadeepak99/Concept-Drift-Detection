@@ -12,7 +12,7 @@ from sklearn.metrics import (accuracy_score, f1_score, balanced_accuracy_score, 
                              precision_score, recall_score)
 from river.drift import ADWIN, DDM, EDDM, KSWIN, PageHinkley, HDDM_A, HDDM_W
 
-sys.path.insert(0, "experiments")
+sys.path.insert(0, "ours")
 from run_ext import DATA, SEEDS, BASE, load
 
 OUT = "results/ext"

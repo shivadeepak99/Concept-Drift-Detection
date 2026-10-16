@@ -10,4 +10,3 @@ lightgbm
 nbconvert
 ipykernel
 tabulate
-python-docx

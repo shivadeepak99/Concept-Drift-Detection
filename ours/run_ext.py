@@ -18,8 +18,8 @@ from river import imblearn
 
 OUT = "results/ext"
 DATA = {
-    "IoTID20": ("pwpae/data/IoT_2020_b_0.01_fs.csv", "Label", [270, 600]),
-    "CICIDS2017": ("pwpae/data/cic_0.01km.csv", "Labelb", [9900, 12600, 14200, 15800, 18800, 21600]),
+    "IoTID20": ("baseline/data/IoT_2020_b_0.01_fs.csv", "Label", [270, 600]),
+    "CICIDS2017": ("baseline/data/cic_0.01km.csv", "Labelb", [9900, 12600, 14200, 15800, 18800, 21600]),
 }
 SEEDS = [1, 2, 3]
 BASE = ["ARF-ADWIN", "SRP-ADWIN", "ARF-DDM", "SRP-DDM"]

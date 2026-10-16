@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 results/ext/
+results/*.csv
 *.log
 *.log2
 .ipynb_checkpoints/
